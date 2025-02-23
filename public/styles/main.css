@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(135deg, #ffffff, #a8ffb0);
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        avenir next,
+        avenir,
+        segoe ui,
+        helvetica neue,
+        helvetica,
+        Ubuntu,
+        roboto,
+        noto,
+        arial,
+        sans-serif;
+    color: #ff3333; /* Fallback for non-supported browsers */
+}
+
+h1,
+h2,
+h3,
+p,
+span,
+a {
+    background: linear-gradient(90deg, #ff0000, #ff4d4d, #ff0000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5);
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+input {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 0;
+    font-size: 0.9rem;
+    background: linear-gradient(135deg, #444, #000);
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
